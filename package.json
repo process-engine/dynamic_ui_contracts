@@ -2,7 +2,8 @@
   "name": "@process-engine/dynamic_ui_contracts",
   "version": "0.1.0",
   "description": "contracts of dynamic ui",
-  "main": "index.js",
+  "main": "dist/commonjs/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "gulp build",
     "prepare": "npm run build",
