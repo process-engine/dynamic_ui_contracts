@@ -1,7 +1,7 @@
 export interface IDynamicUIApi {
   readonly assetsPath: string;
 
-  getIndex(): Promise<any>;
+  getIndex(formKey: string): Promise<any>;
 
   getWebcomponent(formKey: string): Promise<any>;
 }
