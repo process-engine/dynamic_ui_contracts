@@ -4,8 +4,8 @@ const params = {
 };
 
 const paths = {
-  getDialog: `/dialog/${params.formKey}`,
-  postDialog: `/dialog/${params.formKey}`,
+  getIndex: `/${params.formKey}`,
+  getWebcomponent: `/webcomponent/${params.formKey}`,
 };
 
 /**
